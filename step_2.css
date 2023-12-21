@@ -1,0 +1,40 @@
+.container {
+    max-width: 1000px;
+    margin: auto auto;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.banner-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner-block-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.banner-block-video{
+    box-shadow: grey 0 0 20px 2px;
+}
+
+.button {
+    padding: 10px 40px;
+    display: inline;
+    align-self: flex-start;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.bunner-button {
+    background: #FFAA40;
+    color: white;
+}
