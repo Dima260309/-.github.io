@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: #312f30;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu{
+    width: 40%;
+}
+
+.menu-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu-item{
+    padding: 20px;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #f6f2f1;
+    text-transform: uppercase;
+}
+
+.active{
+    background: #ff3f40;
+}
